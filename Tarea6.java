@@ -12,9 +12,11 @@ public class Tarea6
 	//ejercicio1(0)=0
 	//ejercicio1(1)=1
 	static int ejercicio1(int n)
-	{
-	//Este ejercicio en si se me dificulto un poco ya que en clase no ponia mucha atencion solo tomaba fotos
-         //pero gracias ala ayuda del libro pude entender muchas cosas y esto me sirvio de ayuda para el examen..   
+	{ 
+	// Creamos la sentencia para poder crear la funcion recursiva
+	// Utilizandon return sumaremos o restaremos la funcion
+	// YA con return devuelva el valor
+
             if (n==0)
                 return 0; 
              if(n==1)
@@ -30,8 +32,8 @@ public class Tarea6
 	//ejercicio2(1)=3
 	static int ejercicio2(int n)
 	{
-            // ensi este ejercico es el mismo que el anterior...con diferente formula,
-            if (n==0)  
+            // Declaramos la sentencia if para poder crear la funcion recursiva
+            // LA misma que lo hicimos con el ejercicio anterior
 		return 2; 
             if (n==1)
                 return 3;
@@ -48,7 +50,8 @@ public class Tarea6
 	//ejercicio3(2)=2
 	static int ejercicio3(int n)
 	{ 
-            // es igual al anteriror cn diferente formulas alas otras..
+           // De la misma que los dos anteriores declaramos la sentencia para poder crear la funcion recursiva
+           // Con return devuelve el valor deseado
             if (n==0)
 		return 0;
             if (n==1)
